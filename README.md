@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 
-## Created by: create-next-app tool
+## Created by: create-next-app
 
 ## Getting Started
 
