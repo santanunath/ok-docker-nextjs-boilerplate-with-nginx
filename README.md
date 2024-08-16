@@ -30,7 +30,7 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) or [http://rpi_ip:3000](http://rpi_ip:3000) with your browser to see the result.
 
-You can start editing the page by modifying
+You can start editing the Home page by modifying
 
 ```bash
  `app/page.js`
