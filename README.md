@@ -33,7 +33,7 @@ Open [http://localhost:3000](http://localhost:3000) or [http://rpi_ip:3000](http
 You can start editing the Home page by modifying
 
 ```bash
- `app/page.js`
+app/page.js
 ```
 
 The page auto-updates as you edit the file.
