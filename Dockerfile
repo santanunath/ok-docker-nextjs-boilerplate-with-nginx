@@ -1,6 +1,6 @@
 FROM node:alpine
 
-WORKDIR /src
+WORKDIR /myapp
 
 COPY package*.json  ./
 
@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-#EXPOSE 3000
+EXPOSE 3000
 
-#CMD ["node", "index.js"]
+CMD ["npm", "run", "dev"]
 
