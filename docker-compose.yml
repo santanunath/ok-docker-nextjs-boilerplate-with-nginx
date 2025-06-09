@@ -3,12 +3,6 @@ services:
   my-nextjs-app:
     build:
       dockerfile: Dockerfile
-      context: ./backend
-    depends_on:
-      - mysql_db
-    volumes:
-      - /app/node_modules
-      - ./backend:/app
-    environment:
-#      <<: *common-variables
-      MYSQL_HOST_IP: mysql_db
+      context: .
+    ports:
+      - "3000:3000"
