@@ -62,5 +62,5 @@ $ sudo docker ps
 
 $ sudo docker logs container-name
 
-$ sudo docker docker compose down
+$ sudo docker-compose down
 ```
