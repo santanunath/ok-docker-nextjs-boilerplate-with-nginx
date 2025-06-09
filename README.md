@@ -55,3 +55,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
    
 
 # Ho to run this app with docker-compose
+
+```bash
+$ sudo docker-compose up -d
+```
