@@ -58,4 +58,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ```bash
 $ sudo docker-compose up -d
+$ sudo docker ps
+
+$ sudo docker logs container-name
+
+$ sudo docker docker compose down
 ```
