@@ -3,8 +3,10 @@ services:
   nextjs-app:
     container_name: nextjs-app
     build:
+      context: .
       dockerfile: Dockerfile
       context: .
+    restart: always
     ports:
       - "3000:3000"
     volumes:
