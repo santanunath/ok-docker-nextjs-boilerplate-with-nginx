@@ -60,7 +60,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ```bash
 $ sudo docker-compose up -d
-$ sudo docker ps
+
 
 if application is running without Nginx  
 proxy, then..  
@@ -75,6 +75,12 @@ proxy, then..
 Open  
 http://localhost   (or)     
 http://host-ip
+```
+
+## How to view list of running containers
+
+```bash
+$ sudo docker ps
 ```
 
 ## How to view logs of a running container
