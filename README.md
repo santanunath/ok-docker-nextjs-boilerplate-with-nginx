@@ -92,7 +92,6 @@ $ sudo docker logs container-name
 ## How to enter into the running container 
 
 ```bash
-$ sudo docker ps
 $ sudo docker exec -it container-name sh
 $ ls -la
 ```
