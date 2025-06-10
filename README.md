@@ -64,7 +64,11 @@ $ sudo docker ps
 
 $ sudo docker logs container-name
 $ sudo docker exec -it container-name sh
+```
 
+# How to remove the app
+
+```bash
 $ sudo docker-compose down
 $ sudo docker ps
 $ sudo docker system prune -a
