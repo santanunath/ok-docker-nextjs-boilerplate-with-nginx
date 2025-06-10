@@ -61,7 +61,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ```bash
 $ sudo docker-compose up -d
 $ sudo docker ps
+```
 
+# How to view content of the running container 
+
+```bash
 $ sudo docker logs container-name
 $ sudo docker exec -it container-name sh
 ```
