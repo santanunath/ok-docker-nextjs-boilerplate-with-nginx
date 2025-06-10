@@ -63,7 +63,7 @@ $ sudo docker-compose up -d
 $ sudo docker ps
 
 if application is running without Nginx  
-proxy server, then..  
+proxy, then..  
 Open  
 http://localhost:3000  (or)    
 http://host-ip:3000   
@@ -71,7 +71,7 @@ with your browser to see the result.
     
      
 if application is running with Nginx  
-proxy server, then..  
+proxy, then..  
 Open  
 http://localhost   (or)     
 http://host-ip
