@@ -63,6 +63,8 @@ $ sudo docker-compose up -d
 $ sudo docker ps
 
 $ sudo docker logs container-name
+$ sudo docker exec -it container-name sh
 
 $ sudo docker-compose down
+$ sudo docker ps
 ```
