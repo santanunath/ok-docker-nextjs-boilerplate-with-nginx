@@ -77,7 +77,7 @@ http://localhost   (or)
 http://host-ip
 ```
 
-## How to view list of running containers
+## How to view list of running containers with details
 
 ```bash
 $ sudo docker ps
