@@ -67,4 +67,8 @@ $ sudo docker exec -it container-name sh
 
 $ sudo docker-compose down
 $ sudo docker ps
+$ sudo docker system prune -a
+
+$ cd ..
+$ sudo rm -r docker-nextjs-boilerplate-app
 ```
