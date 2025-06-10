@@ -4,7 +4,7 @@ services:
     container_name: nextjs-app
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile-for-prod
       context: .
     restart: always
     ports:
