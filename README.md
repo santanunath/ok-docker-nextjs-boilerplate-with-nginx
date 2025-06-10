@@ -77,11 +77,16 @@ http://localhost   (or)
 http://host-ip
 ```
 
+## How to view logs of a running container
+
+```bash
+$ sudo docker logs container-name
+```
+
 ## How to enter into the running container 
 
 ```bash
 $ sudo docker ps
-$ sudo docker logs container-name
 $ sudo docker exec -it container-name sh
 $ ls -la
 ```
