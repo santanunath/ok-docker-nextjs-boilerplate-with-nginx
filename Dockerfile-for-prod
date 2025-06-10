@@ -1,5 +1,5 @@
     # Stage 1: Build the Nextjs application
-    FROM node:18-alpine AS builder
+    FROM node:alpine AS builder
     WORKDIR /myapp
     COPY package*.json  ./
     RUN npm install
@@ -7,7 +7,7 @@
     RUN npm run build
 
     # Stage 2: Create the production image
-    FROM node:18-alpine AS runner
+    FROM node:alpine AS runner
     WORKDIR /myapp
     ENV NODE_ENV production
     COPY --from=builder /myapp/.next ./.next
