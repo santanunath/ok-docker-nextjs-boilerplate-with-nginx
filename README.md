@@ -68,7 +68,15 @@ Open
 http://localhost:3000  
 or    
 http://rpi_ip:3000   
-with your browser to see the result.
+with your browser to see the result. 
+    
+     
+if application is running with Nginx  
+proxy server, then..  
+Open  
+http://localhost
+or    
+http://rpi_ip
 ```
 
 ## How to view content of the running container 
