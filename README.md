@@ -69,6 +69,7 @@ $ sudo docker ps
 $ sudo docker ps
 $ sudo docker logs container-name
 $ sudo docker exec -it container-name sh
+$ ls -la
 ```
 
 ## How to remove the app
