@@ -65,18 +65,16 @@ $ sudo docker ps
 if application is running without Nginx  
 proxy server, then..  
 Open  
-http://localhost:3000  
-or    
-http://rpi_ip:3000   
+http://localhost:3000  (or)    
+http://host-ip:3000   
 with your browser to see the result. 
     
      
 if application is running with Nginx  
 proxy server, then..  
 Open  
-http://localhost
-or    
-http://rpi_ip
+http://localhost   (or)     
+http://host-ip
 ```
 
 ## How to view content of the running container 
