@@ -70,5 +70,7 @@ $ sudo docker ps
 $ sudo docker system prune -a
 
 $ cd ..
-$ sudo rm -r docker-nextjs-boilerplate-app
+$ ls -l
+$ sudo rm -r docker-nextjs-boilerplate-app/
+$ ls -l
 ```
