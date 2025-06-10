@@ -66,6 +66,7 @@ $ sudo docker ps
 ## How to view content of the running container 
 
 ```bash
+$ sudo docker ps
 $ sudo docker logs container-name
 $ sudo docker exec -it container-name sh
 ```
