@@ -1,7 +1,7 @@
     # Stage 1: Build the Nextjs application
     FROM node:18-alpine AS builder
     WORKDIR /myapp
-    COPY package.*  ./
+    COPY package*.json  ./
     RUN npm install
     COPY . .
     CMD ["npm", "run", "build"]
@@ -14,4 +14,5 @@
     COPY --from=builder /myapp/node_modules ./node_modules
     COPY --from=builder /myapp/package.json ./package.json
     COPY --from=builder /myapp/public ./public
+    COPY --from=builder /myapp/app ./app
     CMD ["npm", "run", "start"]
