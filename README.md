@@ -2,7 +2,20 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-
+## Tech Stack
+- Nextjs (v14.2.5) Nodejs v18
+- typescript
+- mongodb
+- mailtrap (for email delivery)
+      
+## Nextjs14/15 application structure 
+'public' and 'src/app' folders are created automatically.   
+- all 'pages' in nextjs must be defined inside folder /src/app/
+- all APIs in nextjs must be defined inside folder /src/app/api/
+- all 'ui components' are defined inside folder /src/components/ 
+- db connection is defined inside folder /src/dbConfig/
+- all db model schema are defined inside folder /src/models/
+- all utilities (tokens, mailers) are defined inside folder /src/helpers/
 
 ## Getting Started
 
