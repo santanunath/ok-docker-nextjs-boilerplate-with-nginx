@@ -9,6 +9,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 'public' and 'app' folders are created automatically.   
 - all 'pages' in nextjs must be defined inside folder /app/
 - default Home page (page.js) is define inside folder /app/
+- You can start editing the Home page by modifying 'app/page.js'
 
 ## Getting Started
 
