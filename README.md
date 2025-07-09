@@ -5,6 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Tech Stack
 - Nextjs (v13.4.12)
 - Reactjs (v18.2.0")
+- Nginx proxy server 
       
 ## Nextjs v13.4/14/15 application structure 
 'public' and 'app' folders are created automatically.   
