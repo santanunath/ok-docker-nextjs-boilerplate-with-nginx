@@ -3,8 +3,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Tech Stack
-- Nextjs (v13.4.12)
-- Reactjs (v18.2.0")
+- Nextjs (v13.4.12) Reactjs (v18.2.0")
+- Nodejs (which version, see in Dockerfile)
 - Nginx proxy server 
       
 ## Nextjs v13.4/14/15 application structure 
