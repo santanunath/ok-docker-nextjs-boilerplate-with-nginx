@@ -6,8 +6,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Nextjs (v14.2.5)
       
 ## Nextjs14/15 application structure 
-'public' and 'src/app' folders are created automatically.   
-- all 'pages' in nextjs must be defined inside folder /src/app/
+'public' and 'app' folders are created automatically.   
+- all 'pages' in nextjs must be defined inside folder /app/
 
 
 ## Getting Started
