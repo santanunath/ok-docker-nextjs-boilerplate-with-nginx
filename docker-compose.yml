@@ -1,5 +1,17 @@
 services:
 
+  nextjs-app:
+    container_name: nextjs-app
+    build:
+      context: .
+      dockerfile: Dockerfile-for-prod
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./public:/myapp/public
+      - ./app:/myapp/app
+
   nginx_proxy:
     image: nginx 
     container_name: nginx_proxy 
@@ -9,16 +21,4 @@ services:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf
     depends_on:
       - nextjs-app 
-        
-  nextjs-app:
-    container_name: nextjs-app
-    build:
-      context: .
-      dockerfile: Dockerfile-for-prod
-      context: .
-    restart: always
-    ports:
-      - "3000:3000"
-    volumes:
-      - ./public:/myapp/public
-      - ./app:/myapp/app
+
