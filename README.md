@@ -6,7 +6,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Nextjs (v13.4.12)
 - Reactjs (v18.2.0")
       
-## Nextjs13.4/14/15 application structure 
+## Nextjs v13.4/14/15 application structure 
 'public' and 'app' folders are created automatically.   
 - all 'pages' in nextjs must be defined inside folder /app/
 - default Home page (page.js) is define inside folder /app/
