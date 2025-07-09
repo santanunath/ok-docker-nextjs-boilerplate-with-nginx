@@ -3,10 +3,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Tech Stack
-- Nextjs (v14.2.5) Nodejs v18
-- typescript
-- mongodb
-- mailtrap (for email delivery)
+- Nextjs (v14.2.5)
       
 ## Nextjs14/15 application structure 
 'public' and 'src/app' folders are created automatically.   
