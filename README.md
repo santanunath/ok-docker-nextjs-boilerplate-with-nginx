@@ -11,7 +11,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - default Home page (page.js) is define inside folder /app/
 - You can start editing the Home page by modifying 'app/page.js'
 
-## Getting Started
+## How to run this application (without Docker)
 
 
 Install the dependencies: (listed in package.json file)
